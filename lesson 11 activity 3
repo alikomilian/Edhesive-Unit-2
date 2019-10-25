@@ -1,0 +1,15 @@
+import java.util.scanner;
+class Lesson_11_Activity_Three {
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        int x;
+        int y;
+        System.out.println("please enter an integer");
+        x = scan.nextInt();
+        System.out.println("please enter another integer");
+        y = scan.nextInt();
+        if (x==y){
+            System.out.println("YES");
+        }
+    }
+}
