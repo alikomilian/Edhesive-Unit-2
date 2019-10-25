@@ -1,0 +1,12 @@
+import java.util.scanner
+class LEsson_11_Activity_One {
+    
+    public static void main(String[] args){
+        Scanner scan= new Scanner(System.in);
+        System.out.println("Please give an integer");
+        int x = scan.nextInt();
+        if (x==176){
+            System.out.println("YES");
+        }
+    }
+}
