@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class Lesson_12_Activity_One {
+    public static void main(String[] args)
+     {
+     Scanner scan = new Scanner (System.in); 
+     System.out.println("Enter an integer ");
+     double x = scan.nextDouble();
+     System.out.println("Enter an integer ");
+     double y = scan.nextDouble();
+     System.out.println("Enter an integer ");
+     double z = scan.nextDouble();
+     double average = ((x+y+z)/3);
+     if (average >= 89.5){
+      System.out.println("ABOVE AVERAGE");
+      }
+    }
+}
