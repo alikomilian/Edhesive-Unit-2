@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class Lesson_12_Activity_Two {
+  public static void main(String[] args){
+    Scanner scan = new Scanner(System.in);
+    double x;
+    double y;
+    System.out.println("please enter two  numbers: ");
+    x=scan.nextDouble();
+    y=scan.nextDouble();
+    if (x==y){
+      System.out.println("Largest is: "+x);
+    }
+    if (x>y){
+      System.out.println("Largest is: "+x);
+    }
+    if (y>x){
+      System.out.println("Largest is: "+y);
+    }
+  }
+}
