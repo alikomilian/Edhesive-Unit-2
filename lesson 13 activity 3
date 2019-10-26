@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class Lesson_13_Activity_Three {
+  public static void main(String[] args){
+    Scanner scan = new Scanner(System.in);
+    System.out.println("Please enter two integers");
+    int x= scan.nextInt();
+    int y= scan.nextInt();
+    if (x==y){
+      System.out.println("EQUAL");
+    } else if (x>y){
+      System.out.println(x);
+    } else if (y>x){
+      System.out.println(y);
+    }
+ }
+}
